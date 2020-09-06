@@ -7,6 +7,10 @@ import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './signin/signin.component';
 import { ContectComponent } from './contect/contect.component';
 import { AdminComponent } from './admin/admin.component';
+import { ForgotComponent } from './forgot/forgot.component';
+import { OtpverificationComponent } from './otpverification/otpverification.component';
+import { NewpasswordComponent } from './newpassword/newpassword.component';
+import { RouterLinkActive } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,16 @@ import { AdminComponent } from './admin/admin.component';
     HomeComponent,
     SigninComponent,
     ContectComponent,
-    AdminComponent
+    AdminComponent,
+    ForgotComponent,
+    OtpverificationComponent,
+    NewpasswordComponent  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

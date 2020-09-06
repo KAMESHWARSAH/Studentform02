@@ -12,6 +12,7 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+ 
 
 }
 const togglePassword = document.querySelector('#togglePassword');

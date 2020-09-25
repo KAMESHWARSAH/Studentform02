@@ -1,0 +1,58 @@
+.body {
+    font-family: 'Baloo Bhai 2';
+}
+
+h5 {
+    margin-left: 20px
+}
+
+h2 {
+    margin-left: 20px
+}
+
+.studentform {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+input,
+select,
+textarea {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    background: #fff;
+}
+
+
+/* Submit Button */
+
+.submitbutton {
+    margin-right: 90px;
+    margin-bottom: 10px;
+}
+
+
+/* number */
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.divider {
+    border-top: 2px solid gray;
+    width: 86%;
+    margin-left: 91px;
+}
+
+
+/* Date */

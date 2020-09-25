@@ -1,36 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { EmpprofileComponent } from './empprofile/empprofile.component';
 import { HomeComponent } from './home/home.component';
-import { SigninComponent } from './signin/signin.component';
-import { AdminComponent } from './admin/admin.component';
-import { ForgotComponent } from './forgot/forgot.component';
-import { OtpverificationComponent } from './otpverification/otpverification.component';
-import { NewpasswordComponent } from './newpassword/newpassword.component';
+import { StudentadmissionComponent } from './studentadmission/studentadmission.component';
 
 const routes: Routes = [
   {
     path:'',component:HomeComponent
   },
+
   {
-    path:'home',component:HomeComponent
+    path:'studentadmission',component:StudentadmissionComponent
   },
   {
-    path:'signin',component:SigninComponent
-  },
-  {
-    path:'admin',component:AdminComponent
-  },
-  {
-    path:'forgot',component:ForgotComponent
-  },
-  
-  {
-    path:'otpverification',component:OtpverificationComponent
-  },
-  {
-    path:'newpassword',component:NewpasswordComponent
+    path:'empprofile',component:EmpprofileComponent
   }
-];
+  
+]
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

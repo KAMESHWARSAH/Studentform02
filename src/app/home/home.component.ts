@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  
   constructor() { }
 
   ngOnInit(): void {
@@ -15,5 +14,3 @@ export class HomeComponent implements OnInit {
  
 
 }
-const togglePassword = document.querySelector('#togglePassword');
-const password = document.querySelector('#password');
